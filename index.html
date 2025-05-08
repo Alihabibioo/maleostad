@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+        <link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+    <div class="membership-container">
+        <h1>انتخاب نوع عضویت</h1>
+
+        <div class="radio-group">
+            <div class="radio-option">
+                <input type="radio" id="free" name="membership" value="free" checked  onclick="featureSelection('free')">
+                <label for="free">عضویت رایگان</label>
+                <ul class="feature-list" id="free-features">
+                    <li>دسترسی به محتوای پایه</li>
+                    <li>پشتیبانی ایمیل</li>
+                    <li>تبلیغات محدود</li>
+                </ul>
+            </div>
+
+            <div class="radio-option">
+                <input type="radio" id="standard" name="membership" value="standard" onclick="featureSelection('standard')" >
+                <label for="standard">عضویت استاندارد</label>
+                <ul class="feature-list" id="standard-features">
+                    <li>تمامی امکانات رایگان</li>
+                    <li>پشتیبانی تلفنی</li>
+                    <li>حذف تبلیغات</li>
+                    <li>محتوای ویژه</li>
+                </ul>
+            </div>
+
+            <div class="radio-option">
+                <input type="radio" id="premium" name="membership" value="premium" onclick="featureSelection('premium')">
+                <label for="premium">عضویت پریمیوم</label>
+                <ul class="feature-list" id="premium-features">
+                    <li>تمامی امکانات استاندارد</li>
+                    <li>پشتیبانی 24 ساعته</li>
+                    <li>محتوای انحصاری</li>
+                    <li>تخفیف ویژه محصولات</li>
+                    <li>دسترسی زودهنگام به ویژگی‌های جدید</li>
+                </ul>
+            </div>
+        </div>
+
+        <button >نمایش جزئیات عضویت</button>
+
+        <div id="result"></div>
+        <script src="script/script.js"></script>
+    </div>
+</body>
+</html>

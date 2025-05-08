@@ -1,0 +1,101 @@
+body {
+    font-family: 'vazirmatn', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    background-color: #f8f9fa;
+    direction: rtl;
+}
+
+.membership-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.radio-group {
+    margin: 25px 0;
+    text-align: right;
+}
+
+.radio-option {
+    margin: 15px 0;
+    padding: 12px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+.radio-option:hover {
+    border-color: #3498db;
+    background-color: #f0f8ff;
+}
+
+.radio-option input {
+    margin-left: 10px;
+    transform: scale(1.3);
+}
+
+.radio-option label {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #2ecc71;
+}
+
+#result {
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+.free {
+    background-color: #95a5a6;
+    color: white;
+}
+
+.standard {
+    background-color: #3498db;
+    color: white;
+}
+
+.premium {
+    background-color: #9b59b6;
+    color: white;
+}
+
+.feature-list {
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+.feature-list li {
+    margin: 8px 0;
+    list-style-type: square;
+}
